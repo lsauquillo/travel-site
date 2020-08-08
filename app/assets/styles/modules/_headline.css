@@ -1,0 +1,46 @@
+.headline {
+  font-weight: 300;
+  font-size: 1.6rem;
+  color: $navy;
+
+  @mixin atMedium {
+    font-size: 2.4em;
+  }
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--orange {
+    color: $orangeMain;
+  }
+
+  &--small {
+    font-size: 1em;
+    @mixin atSmall {
+      font-size: 1.4em;
+    }
+    
+  }
+
+  &--narrow {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &--light {
+    font-weight: 200;
+  }
+
+  &--b-margin-small {
+    margin-bottom: 0.5em;;
+  }
+
+  &--b-margin-large {
+    margin-bottom: 1.5em;;
+  }
+
+}
+
+

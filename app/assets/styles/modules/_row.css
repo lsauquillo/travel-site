@@ -1,0 +1,25 @@
+.row {
+  /*background-color: yellow;*/
+  @mixin clearfix;
+  
+  &--gutters > div {
+    padding-right: 25px;
+  }
+  @mixin atMedium {
+    &__medium-4 {
+      width: 33.33%;
+      float: left;    
+    }
+    &__medium-8 {
+      width: 66.66%;
+      float: left;    
+    }
+    &__medium--large-4 {
+      width:40%
+    } 
+    &__medium--small-8 {
+      width: 60%;
+    } 
+  }  
+  
+}
